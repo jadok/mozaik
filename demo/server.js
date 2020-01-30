@@ -1,10 +1,11 @@
 'use strict'
 
-require('dotenv').load({ silent: true })
+require('dotenv').config()
 
 const path = require('path')
 const server = require('@mozaik/server').default
 
+console.log(process.env.GITHUB_API_TOKEN)
 let configFile = process.argv[2] || 'conf/config.yml'
 
 console.log(`> using config file: '${configFile}'\n`)

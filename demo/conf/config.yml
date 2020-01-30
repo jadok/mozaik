@@ -25,23 +25,16 @@ dashboards:
   -
     extension:    github
     widget:       UserBadge
-    user:         plouc
+    user:         jadok
     columns:      1
     rows:         1
     x:            0
     y:            0
-  -
-    extension:    github
-    widget:       OrgBadge
-    organization: ekino
-    columns:      1
-    rows:         1
-    x:            1
-    y:            0
+
   -
     extension:    github
     widget:       RepoContributorsStats
-    repository:   plouc/mozaik
+    repository:   jadok/bet-extension
     columns:      1
     rows:         1
     x:            2
@@ -49,7 +42,7 @@ dashboards:
   -
     extension:    github
     widget:       RepoBadge
-    repository:   plouc/mozaik
+    repository:   jadok/bet-extension
     columns:      1
     rows:         1
     x:            3
@@ -71,7 +64,7 @@ dashboards:
   -
     extension:    github
     widget:       Branches
-    repository:   plouc/mozaik
+    repository:   jadok/bet-extension
     columns:      1
     rows:         1
     x:            2
@@ -79,35 +72,9 @@ dashboards:
   -
     extension:    github
     widget:       PullRequests
-    repository:   plouc/mozaik
+    repository:   jadok/bet-extension
     columns:      1
     rows:         1
     x:            3
     y:            1
-  -
-    extension:    travis
-    widget:       Repository
-    owner:        plouc
-    repository:   mozaik
-    columns:      1
-    rows:         1
-    x:            0
-    y:            2
-  -
-    extension:   travis
-    widget:      BuildHistogram
-    owner:       plouc
-    repository:  mozaik
-    columns:     2
-    rows:        1
-    x:           1
-    y:           2
-  -
-    extension:   travis
-    widget:      BuildHistory
-    owner:       plouc
-    repository:  mozaik
-    columns:     1
-    rows:        1
-    x:           3
-    y:           2
+
